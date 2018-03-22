@@ -30,9 +30,9 @@ ki4 = LINETCR.LINE()
 ki4.login(token="ErebkebpY3wbGc3WL0Oa.Xfl9nQtDPVEo54Iq5GTYwG.xby2aQJnOon75gN5/Prr4cpFoA5XC/prmpnzYvWX/mg=")
 ki4.loginResult()
 
-#ki5 = LINETCR.LINE()
-#ki5.login(token="EqTWd0Z5K6gNklkCuPfa.Xfl9nQtDPVEo54Iq5GTYwG.tqGkvbBc6FEGJ592tBycbt7FHz2lWEcRH9NuUKKbRZo=")
-#ki5.loginResult()
+ki5 = LINETCR.LINE()
+ki5.login(token="Er7apt3DE2PV8YPtYNo6.cuUzgHyUWFbMQ7xPJaq0XG.RiAJqOjwgiQyku8optk3LhKtS7AVoKsvxIufnAwSoPw=")
+ki5.loginResult()
 
 #ki6 = LINETCR.LINE()
 #ki6.login(token="EquLYjcouSJ9LGmPin70.Cv95vqzDgLx8+zmVrXH4Ca.vv+mkfXBzD42bc/YgL01HTg21CLEkLX+KDYbFDoahkE=")
@@ -291,13 +291,13 @@ helpMessage4 ="""
 ║✰ บินแม่ง ➠สั่งคิกเกอร์บินห้อง
 ╚══════════════════════
 """
-KAC=[cl,ki1,ki2,ki3,ki4]
+KAC=[cl,ki1,ki2,ki3,ki4,ki5]
 mid = cl.getProfile().mid
 Amid1 = ki1.getProfile().mid
 Amid2 = ki2.getProfile().mid
 Amid3 = ki3.getProfile().mid
 Amid4 = ki4.getProfile().mid
-#Amid5 = ki5.getProfile().mid
+Amid5 = ki5.getProfile().mid
 #Amid6 = ki6.getProfile().mid
 #Amid7 = ki7.getProfile().mid
 #Amid8 = ki8.getProfile().mid
@@ -312,13 +312,13 @@ autoinvite = []
 autoleaveroom = []
 targets = []
 mid = cl.getProfile().mid
-Bots = [mid,Amid1,Amid2,Amid3,Amid4]
-self = [mid,Amid1,Amid2,Amid3,Amid4]
-admin = "u449034c15042f01e5356cb2695154167"
-admsa = "u449034c15042f01e5356cb2695154167"
-owner = "u449034c15042f01e5356cb2695154167"
-adminMID = "u449034c15042f01e5356cb2695154167"
-Creator="u449034c15042f01e5356cb2695154167"
+Bots = ["u7c71e738a0955e5e76811ce9cde9ff02",mid,Amid1,Amid2,Amid3,Amid4,Amid5]
+self = ["u7c71e738a0955e5e76811ce9cde9ff02",mid,Amid1,Amid2,Amid3,Amid4,Amid5]
+admin = "u7c71e738a0955e5e76811ce9cde9ff02"
+admsa = "u7c71e738a0955e5e76811ce9cde9ff02"
+owner = "u7c71e738a0955e5e76811ce9cde9ff02"
+adminMID = "u7c71e738a0955e5e76811ce9cde9ff02"
+Creator="u7c71e738a0955e5e76811ce9cde9ff02"
 wait = {
     "alwayRead":False,
     "detectMention":True,
@@ -437,11 +437,11 @@ backup.displayName = contact.displayName
 backup.statusMessage = contact.statusMessage
 backup.pictureStatus = contact.pictureStatus
 
-#contact = ki5.getProfile()
-#backup = ki5.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = ki5.getProfile()
+backup = ki5.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
 #contact = ki6.getProfile()
 #backup = ki6.getProfile()
