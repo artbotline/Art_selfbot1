@@ -333,7 +333,7 @@ wait = {
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':False,
-    'message':"Thanks for add Me By:----❍ণហ ざণاعနัю❍ีざန----",
+    'message':"Thanks for add Me By:i99bets",
     "lang":"JP",
     "comment":"AutoLike by Phet",
     "commentOn":False,
@@ -346,7 +346,7 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":False,
-    "cName":"----❍ণហ ざণاعနัю❍ีざန----",
+    "cName":"i99bets",
     "likeOn":False,
     "pname":False,
     "blacklist":{},
@@ -995,10 +995,10 @@ def bot(op):
                             cl.rejectGroupInvitation(op.param1)
                         else:
                             cl.acceptGroupInvitation(op.param1)
-                        cl.sendText(op.param1, "Your invitation was declined\n\n[SELFBOT PHET HACK BOT]]\n\nhttp://line.me/ti/p/_9io7edD7W")
+                        cl.sendText(op.param1, "Your invitation was declined\n\n[SELFBOT PHET HACK BOT]]\n\ni99bets")
                     else:
                         cl.acceptGroupInvitation(op.param1)
-                        cl.sendText(op.param1, "Your invitation was declined\n\n[SELFBOT PHET HACK BOT]]\n\nhttp://line.me/ti/p/_9io7edD7W")
+                        cl.sendText(op.param1, "Your invitation was declined\n\n[SELFBOT PHET HACK BOT]]\n\ni99bets")
                 elif wait["autoCancel"]["on"] == True:
                     if len(G.members) <= wait["autoCancel"]["members"]:
                         cl.rejectGroupInvitation(op.param1)
@@ -1771,7 +1771,7 @@ def bot(op):
             group = cl.getGroup(op.param1)
             cb = Message()
             cb.to = op.param1
-            cb.text = cl.getContact(op.param2).displayName +"\n🌟ยินดีต้อนรับเข้าสู่🌟\n👉"+group.name
+            cb.text = cl.getContact(op.param2).displayName +"\n🌟 i99bets ยินดีต้อนรับเข้าสู่🌟\n👉"+group.name
             cl.sendMessage(cb)
         if op.type == 15:
             group = cl.getGroup(op.param1)
@@ -6373,7 +6373,7 @@ http://line.me/ti/p/_9io7edD7W
             if wait["Notifed"] == True:
                 if op.param2 in Bots:
                     return
-                cl.sendText(op.param1,cl.getContact(op.param2).displayName + "\n􀜁􀄄􏿿 เเล้วพบใหม่นะ 􀜁􀄄􏿿")
+                cl.sendText(op.param1,cl.getContact(op.param2).displayName + "\n􀜁􀄄􏿿 เเล้วพบกันใหม่นะ 􀜁􀄄􏿿")
                 print "MEMBER OUT GROUP"
 
         if op.type == 17:
@@ -6381,7 +6381,7 @@ http://line.me/ti/p/_9io7edD7W
                 if op.param2 in Bots:
                     return
                 cl.sendText(op.param1,cl.getContact(op.param2).displayName + " ☜ʕ•ﻌ•ʔ ")
-                cl.sendText(op.param1, "􀜁􀄁􏿿 ยินดีต้อนรับครับ 􀜁􀄁􏿿\n􀄃􀅸􏿿 สวัสดีครับผม 􀄃􀅸􏿿\n􂜁􀆄􏿿 อย่าลืมปิดเสียงการเเจ้งเตือนด้วยนะ 􂜁􀆄􏿿\n\n[By.❍ণហ ざণاعနัю❍ีざနะ]")
+                cl.sendText(op.param1, "􀜁􀄁􏿿 i99bets ยินดีต้อนรับครับ 􀜁􀄁􏿿\n􀄃􀅸􏿿 ติดตามทีเด็ดได้ฟรีเลยครับ 􀄃􀅸􏿿\n􂜁􀆄􏿿 อย่าลืมปิดเสียงการเเจ้งเตือนด้วยนะครับ 􂜁􀆄􏿿\n\n[By.i99bets]")
                 print "MEMBER HAS JOIN THE GROUP"
 
         if op.type == 19:
@@ -6404,7 +6404,7 @@ http://line.me/ti/p/_9io7edD7W
             if wait["Notifedbot"] == True:
                 if op.param2 in Bots:
                     return
-                ki1.sendText(op.param1,cl.getContact(op.param2).displayName + "\n\n􀜁􀄁􏿿􂘁􀄗􏿿􂘁􀄅􏿿􂘁􀄌􏿿􂘁􀄃􏿿􂘁􀄏􏿿􂘁􀄍􏿿􂘁􀄅􏿿􀜁􀄁􏿿\n\n[By.❍ণហ ざণاعနัю❍ีざနะ]")
+                ki1.sendText(op.param1,cl.getContact(op.param2).displayName + "\n\n􀜁􀄁􏿿􂘁􀄗􏿿􂘁􀄅􏿿􂘁􀄌􏿿􂘁􀄃􏿿􂘁􀄏􏿿􂘁􀄍􏿿􂘁􀄅􏿿􀜁􀄁􏿿\n\n[By.i99bets]")
 
                 print "MEMBER HAS JOIN THE GROUP"
         if op.type == 19:
