@@ -396,9 +396,9 @@ backup2.pictureStatus = contact.pictureStatus
 
 responsename = cl.getProfile().displayName
 responsename2 = ki.getProfile().displayName
-responsename3 = kk.getProfile().displayName
-responsename4 = kc.getProfile().displayName
-responsename5 = kr.getProfile().displayName
+#responsename3 = kk.getProfile().displayName
+#responsename4 = kc.getProfile().displayName
+#responsename5 = kr.getProfile().displayName
 
 
 wait = {
